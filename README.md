@@ -2,7 +2,7 @@
 
 Hello! I'm a data scientist with a passion for turning data into actionable insights. Check out my animated introduction below!
 
-<img src="https://raw.githubusercontent.com/MartinBordes/MartinBordes/main/assets/animated-intro.svg" alt="Animated Introduction" width="600">
+<img src="[https://raw.githubusercontent.com/MartinBordes/MartinBordes/main/assets/animated-intro.svg](https://github.com/MartinBordes/MartinBordes/blob/main/animated_intro.svg)" alt="Animated Introduction" width="600">
 
 ## About Me
 
