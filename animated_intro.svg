@@ -3,21 +3,27 @@
   <rect x="10" y="10" width="580" height="380" fill="black" stroke="white" />
 
   <!-- Terminal Text -->
-  <text x="20" y="40" fill="green" font-family="Courier" font-size="20">
+  <text id="whoami" x="20" y="40" fill="green" font-family="Courier" font-size="20">
     <tspan>$ whoami</tspan>
-    <tspan x="20" dy="20">Your Name</tspan>
-    <tspan x="20" dy="20">$ git status</tspan>
-    <tspan x="20" dy="20">
-      <tspan x="20" dy="20">┌─────────────────────────────────────────────────────┐</tspan>
-      <tspan x="20" dy="20">│ Repositories: 10                                    │</tspan>
-      <tspan x="20" dy="20">│ Followers: 50                                       │</tspan>
-      <tspan x="20" dy="20">│ Stars: 100                                          │</tspan>
-      <tspan x="20" dy="20">└─────────────────────────────────────────────────────┘</tspan>
-    </tspan>
-    <tspan x="20" dy="40">$ exit</tspan>
+  </text>
+  <text id="name" x="20" y="60" fill="green" font-family="Courier" font-size="20">
+    Martin Bordes
+  </text>
+  <text id="gitstatus" x="20" y="80" fill="green" font-family="Courier" font-size="20">
+    $ git status
+  </text>
+  <text id="stats" x="20" y="120" fill="green" font-family="Courier" font-size="20">
+    <tspan x="20" dy="20">┌─────────────────────────────────────────────────────┐</tspan>
+    <tspan x="20" dy="20">│ Repositories: ...                                   │</tspan>
+    <tspan x="20" dy="20">│ Followers: ...                                       │</tspan>
+    <tspan x="20" dy="20">│ Stars: ...                                          │</tspan>
+    <tspan x="20" dy="20">└─────────────────────────────────────────────────────┘</tspan>
+  </text>
+  <text id="exit" x="20" y="240" fill="green" font-family="Courier" font-size="20">
+    $ exit
   </text>
 
-  <!-- Animations (Example) -->
+  <!-- Animations -->
   <animate
     xlink:href="#whoami"
     attributeName="opacity"
@@ -28,7 +34,7 @@
     fill="freeze"
   />
   <animate
-    xlink:href="#gitstatus"
+    xlink:href="#name"
     attributeName="opacity"
     from="0"
     to="1"
@@ -37,12 +43,30 @@
     fill="freeze"
   />
   <animate
-    xlink:href="#exit"
+    xlink:href="#gitstatus"
+    attributeName="opacity"
+    from="0"
+    to="1"
+    dur="2s"
+    begin="4s"
+    fill="freeze"
+  />
+  <animate
+    xlink:href="#stats"
     attributeName="opacity"
     from="0"
     to="1"
     dur="2s"
     begin="6s"
+    fill="freeze"
+  />
+  <animate
+    xlink:href="#exit"
+    attributeName="opacity"
+    from="0"
+    to="1"
+    dur="2s"
+    begin="10s"
     fill="freeze"
   />
 </svg>
