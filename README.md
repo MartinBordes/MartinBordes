@@ -1,3 +1,4 @@
+<!--
 # Welcome to My GitHub Profile!
 
 Hello! I'm a data scientist with a passion for turning data into actionable insights. Check out my animated introduction below!
@@ -25,7 +26,6 @@ Hello! I'm a data scientist with a passion for turning data into actionable insi
 - Scikit-learn
 - TensorFlow
 
-<!--
 ## Projects
 
 - [Project 1](link-to-project-1)
