@@ -1,16 +1,36 @@
-## Hi there 👋
+# Welcome to My GitHub Profile!
+
+Hello! I'm a data scientist with a passion for turning data into actionable insights. Check out my animated introduction below!
+
+<img src="https://raw.githubusercontent.com/MartinBordes/MartinBordes/main/assets/animated-intro.svg" alt="Animated Introduction" width="600">
+
+## About Me
+
+- **Role**: Data Scientist
+- **Interests**: Machine Learning, Data Visualization, Statistics
+
+## Skills
+
+- Python
+- R
+- SQL
+- Machine Learning
+- Data Visualization
+
+## Tools
+
+- Jupyter Notebook
+- Tableau
+- Pandas
+- Scikit-learn
+- TensorFlow
 
 <!--
-**MartinBordes/MartinBordes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Projects
 
-Here are some ideas to get you started:
+- [Project 1](link-to-project-1)
+- [Project 2](link-to-project-2)
+- [Project 3](link-to-project-3)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+Feel free to explore and connect with me!
 -->
